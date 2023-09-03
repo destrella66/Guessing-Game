@@ -22,3 +22,19 @@ document.getElementById("submitButton").onclick = function(){
         alert("Too large!")
     }
 }
+document.getElementById("play").onclick = function(){
+    document.getElementById("song").play();
+    document.getElementById("play").style.zIndex = "-1";
+    document.getElementById("play").style.visibility = "hidden";
+    document.getElementById("pause").style.visibility = "visible";
+
+    
+}
+document.getElementById("pause").onclick = function(){
+    document.getElementById("song").pause();
+    document.getElementById("play").style.zIndex = "1";
+
+    document.getElementById("pause").style.visibility = "hidden";
+    document.getElementById("play").style.visibility = "visible";
+    
+}

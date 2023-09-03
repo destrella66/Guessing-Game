@@ -79,3 +79,19 @@ input,
 .container .guessBox .btn:active {
   transform: scale(0.95);
 }
+
+#playControl {
+  border: none;
+  color: #4f78ff;
+  font-size: 50px;
+  text-align: center;
+}
+#play,
+#pause {
+  position: absolute;
+  transform: translateX(-50%);
+}
+#play {
+  z-index: -1;
+  visibility: hidden;
+}
