@@ -11,7 +11,7 @@ document.getElementById("submitButton").onclick = function(){
         guesses = 0; 
         answer = Math.floor(Math.random() * 10 + 1); 
     }
-    else if(guess <= 0){
+    else if(guess <= 0 || guess >10){
         alert("Please, make sure to pick a number between 1 - 10!")
     }
     else if(guess < answer){
