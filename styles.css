@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
 }
 .container {
   display: flex;
@@ -23,6 +24,7 @@ body {
   padding: 20px 30px;
   border-radius: 80px 30px 80px 30px;
   background-color: #4f78ff;
+  margin-bottom: 20px;
 }
 .container h1 {
   font-size: 34px;
